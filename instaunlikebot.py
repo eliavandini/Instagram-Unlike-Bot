@@ -9,7 +9,7 @@ import time
 def unlike_all_posts(username, password):
     try:
         # Set up the WebDriver using the Service class
-        service = Service("C:\\Users\\anujt\\Downloads\\chromedriver.exe")
+        service = Service("C:\\Users\\Divya\\Downloads\\chromedriver.exe")
         driver = webdriver.Chrome(service=service)
 
         # Open Instagram
@@ -82,7 +82,7 @@ def unlike_all_posts(username, password):
 
 
 # Replace with your Instagram credentials
-username = "jeetgilluniverse"
-password = "divya@1234"
+username = "YOURINSTAUSERNAME"
+password = "YOURPASSWORD"
 
 unlike_all_posts(username, password)
